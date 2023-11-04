@@ -148,3 +148,45 @@
 .signup:hover{
     color: #989895;
 }
+
+
+/************** CTA SECTION ***************/
+.cta{
+    background: linear-gradient(to bottom, #1ce781d6, #000000);
+    width:100%;
+    color: white;
+    text-align: center;
+    padding: 30px 44px 40px 44px;
+}
+
+.cta-text{
+    padding: 0 22px 0 22px;
+    margin-bottom: 25px;
+}
+
+.cta-text p{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    text-align: center;
+}
+
+.cta-btn button {
+    background-color: transparent; 
+    width: 245px;
+    height: 48px;
+    color: white; 
+    padding: 10px 20px;
+    font-size: 14px; 
+    border: 2px solid #ffffff;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+.cta-btn button:hover {
+    background-color: #999999;
+    color:#000000;
+    border:none;
+}
