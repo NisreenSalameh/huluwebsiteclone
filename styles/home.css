@@ -1,0 +1,150 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 2rem 3.2rem 2rem 3.2rem;
+  }
+
+.logo {
+    height: 100%;
+}
+
+.logo img{
+    width: 4.375rem;
+    height: 1.875rem;
+}
+
+.login-menu {
+    background-color: transparent;
+    color: #cdcdcd;
+    padding: 0.625rem 1.25rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 2rem;
+}
+
+.login-menu:hover {
+    background-color: #37393e;
+    border-radius: 0.625rem;
+}
+
+
+/************** HERO SECTION ***************/
+.hero-section {
+    background-image: url(/assets/main.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-container {
+    display: flex;
+    background-color: transparent;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 9.375rem 2.5rem 0 2.5rem;
+}
+
+.bundle-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 41.875rem;
+    gap:1.25rem;
+}
+
+.right-bundle-card,
+.left-bundle-card{
+    background-color: transparent;
+    padding: 0 1.25rem 0 1.25rem;
+    flex:1;
+    text-align: center;
+}
+
+.bundle-title{
+    color:#1ce783;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+.bundle-images img{
+    width: 14.375rem;
+    height: 3.125rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bundle-price{
+    text-align: center;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+}
+
+.hero-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    background-color: #1ce783;
+    color:black;
+    border-radius: 5px;
+    padding: 1rem 4rem 1rem 4rem;
+    width:100%;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+.hero-buttons:hover{
+    background-color: #1ce781c7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.legal-sec {
+    text-align: center;
+    margin-top: 1.25rem;
+    line-height: 0.875rem;
+    display: block;
+    height: 5rem;
+    width:41.875rem;
+    margin-top: 1.875rem;
+}
+
+.terms,
+.signup {
+    color: #ffffff;
+    text-decoration: underline;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.terms{
+    padding: 0 0 0.625rem 0;
+    font-size: 0.875rem;
+}
+
+.signup{
+    padding-top: 0.625rem;
+    font-size: 1rem;
+}
+
+.signup:hover{
+    color: #989895;
+}
