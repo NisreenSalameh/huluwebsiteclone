@@ -422,3 +422,134 @@
     margin: 0 6px 0 6px;
     border-radius: 50%;
 }
+
+
+/************** FOOTER SECTION ***************/
+footer{
+    width:100%;
+    background-color: #e8eaed;
+    height: 483px;
+    padding:0 44px 0 44px;
+}
+
+.footer-upper{
+    display: flex;
+    height:290px;
+    width: 1128.67px;
+    padding:46px 0 46px 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.footer-uc1{
+    text-align: left;
+    height:198px;
+    width:752px;
+    padding:0 8px 0 8px;
+    font-size: 16px;
+    min-height: auto;
+    max-width: 66.7%;
+    min-width: auto;
+}
+
+.browse-row {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-align: left;
+    height:28px;
+    width:736px;
+    padding: 8px 0 8px 0;
+}
+
+.br{
+    display: flex;
+    flex-direction: row;
+}
+
+.br-1 ul,
+.br-2 ul,
+.br-3 ul,
+.br-4 ul {
+    height:170px;
+    width:185px;
+    min-height: auto;
+    max-width: 70%;
+    min-width: auto;
+    text-align: left;
+    list-style: none;
+    line-height: 25px;
+    color:#5c5c5c;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.help-list li:not(:first-child),
+.aboutus-list li:not(:first-child){
+    line-height: 25px;
+    width:200px;
+    text-align: left;
+    line-height: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    color:#5c5c5c;
+}
+.help-list li:nth-child(1),
+.aboutus-list li:nth-child(1){
+    font-weight: 600;
+}
+
+.help-list,
+.aboutus-list{
+    padding-top: 18px;
+}
+
+
+
+.footer-lower{
+    height:194px;
+    width:1128.67px;
+    border-top: 2px solid #D9DCE2;
+    padding: 32px 0 0 0;
+    text-align: left;
+}
+
+.socials-list {
+    display: flex; 
+    list-style: none;
+    padding: 0; 
+    height: 32px;
+    width:170px;
+}
+
+.socials-list li {
+    margin-right: 25px; 
+    cursor: pointer;
+}
+
+.legal-links{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    margin:15px 0 32px 0;
+    display: flex;
+    min-height: auto;
+    min-width: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+  
+.legal-links a {
+    text-decoration: none; 
+    color: #333; 
+    cursor: pointer;
+}
+  
+.legal-links a:nth-child(2) img{
+    height: 12px;
+    width:12px;
+    padding: 0 4px 0 0;
+    display: inline;
+    cursor: pointer;
+}
