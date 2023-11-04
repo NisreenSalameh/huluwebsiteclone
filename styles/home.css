@@ -190,3 +190,106 @@
     color:#000000;
     border:none;
 }
+
+
+/************** LIVE TV SECTION ***************/
+.live-tv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 494px;
+    width:100%; 
+    padding: 0 0 75px 0;
+}
+
+.live-ads{
+    text-align: center;
+    color:#1ce783;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.live-title{
+    color:white;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin: 16px 24px 0 24px;
+}
+
+.subheadline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+    font-size: 16px;
+    line-height: 21.76px;
+    text-align: center;
+    width: 515px;
+    height:232.5px;
+    margin:12px 29px 0 29px;
+    padding:8px 0 8px 0;
+}
+
+.subheadline-btn{
+    height: 86px;
+    width: 400px;
+    padding:20px 44px 10px 44px;
+    margin-left: 55px;    
+}
+
+.subheadline-button{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 14px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #1ce783;
+    height: 50px;
+    width:200px;
+    padding: 0 24px 0 24px;
+    border-radius: 5px;
+}
+
+.subheadline-button:hover{
+    background-color: #1ce781c7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.live-disclaimer{
+    height:30px;
+    width:600px;
+    margin: -10px 39px 30px 39px;
+}
+
+.live-disclaimer p{
+    color:#989895;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+}
+
+.live-disclaimer >p >button{
+    background-color: transparent;
+    color:#989895;
+    font-size: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.viewchannels-btn{
+    color: #cdcdcd;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 16px;
+    text-decoration: underline;
+    background:none;
+    cursor: pointer;
+}
