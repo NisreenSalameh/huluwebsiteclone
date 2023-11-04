@@ -169,6 +169,7 @@
     font-weight: 600;
     letter-spacing: 0.6px;
     text-align: center;
+    color: white;
 }
 
 .cta-btn button {
@@ -275,7 +276,8 @@
     text-align: center;
 }
 
-.live-disclaimer >p >button{
+.live-disclaimer >p >button,
+.livesport-inner-container >p >button{
     background-color: transparent;
     color:#989895;
     font-size: 10px;
@@ -292,4 +294,131 @@
     text-decoration: underline;
     background:none;
     cursor: pointer;
+}
+
+/************** LIVE SPORT SECTION ***************/
+.livesport-section{
+    background-image: url(/assets/sports-bg.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.livesport-outer-container{
+    width:786px;
+    height:100vh;
+    margin:0 215px 0 215px;
+    padding: 60px 0 190px 0;
+    max-width: 786px;
+}
+
+.livesport-inner-container{
+    height: 380.74px;
+    width:786px;
+    margin: 100px 0 0 0;
+    font-size: 16px;
+}
+
+.tab-buttons{
+    height:50px;
+    width:786px;
+    padding:0 0 31px 0;
+    text-align: left;
+}
+
+.ls-1{
+    display:inline;
+    background-color: transparent;
+    color:white;
+    height:auto;
+    width:auto;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.ls-2,
+.ls-3{
+    display:inline;
+    background-color: transparent;
+    color:rgba(255, 255, 255, 0.587);
+    height:auto;
+    width:auto;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin: 0 20px 0 20px;
+}
+
+.ls-1:hover,
+.ls-2:hover,
+.ls-3:hover{
+    color:#ffffff68;
+}
+
+.livesport-headline{
+    text-align: left;
+    height: 60px;
+    width: 650px;
+    margin: 25px 0 0 0;
+}
+
+.livesport-headline span{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    height:auto;
+    width:auto;
+    color:white;
+}
+
+.livesport-subheadline{
+    text-align: left;
+    height: 109px;
+    width: 450px;
+    margin: 18px 0 0 0;
+}
+
+.livesport-subheadline span{
+    color:white;
+    font-size: 16px;
+    line-height: 22px;
+    height: auto;
+    width: auto;
+}
+
+.livesport-inner-container p{
+    color:#989895;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+.livesport-logos{
+    display: flex;
+    height: 75px;
+    width:350px;
+    margin: 20px 0 0 0;
+}
+
+.livesport-logos .live-sport-c {
+    display: flex;
+    background: 50% 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.livesport-logos .live-sport-c img{
+    text-align: center;
+    vertical-align: middle;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    margin: 0 6px 0 6px;
+    border-radius: 50%;
 }
