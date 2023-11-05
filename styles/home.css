@@ -786,7 +786,7 @@ input:checked + .slider:before{
 
 
 .r1-middle-box{
-    background-color: #37393e;
+    background-color: #37393e7e;
     width: 262.5px;
     height: 215px;
     padding: 32px 8px 31px 8px;
@@ -855,7 +855,6 @@ input:checked + .slider:before{
 .plan-feature{
     height: 713px;
     width: 900px;
-    background-color: transparent;
 }
 
 .plan-rows{
@@ -886,6 +885,9 @@ input:checked + .slider:before{
     max-width: 50%;
 }
 
+.plan-row-middle-b{
+    background-color: #37393e7e;
+}
 .plan-rows img{
     height:20px;
     width:20px;
